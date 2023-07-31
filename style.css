@@ -20,12 +20,13 @@ body {
 }
 
 .stats-container {
-    display: flexbox;
+    display: flex;
     align-items: center;
+    flex-direction: row;
     cursor: pointer;
 }
 
-.stats-container:hover {
+.stats-card:hover {
     box-shadow: 0 0 30px lightblue;
 }
 
